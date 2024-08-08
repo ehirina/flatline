@@ -1,0 +1,257 @@
+openapi: 3.0.1
+info:
+  title: Flatline Service
+  description: Backoffice API
+  contact:
+    name: Rina Kachar
+  version: 1.0.0
+servers:
+  - url: http://localhost:6546
+    description: Development server
+tags:
+  - name: Customers
+paths:
+  /flatline/customers:
+    get:
+      tags: [Customers]
+      summary: Get all customers
+      operationId: GetCustomers
+      parameters:
+        - $ref: "#/components/parameters/Name"
+        - $ref: "#/components/parameters/Email"
+        - $ref: "#/components/parameters/Phone"
+        - $ref: "#/components/parameters/Status"
+        - $ref: "#/components/parameters/DateStart"
+        - $ref: "#/components/parameters/DateEnd"
+        - $ref: "#/components/parameters/Limit"
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Sort"
+        - $ref: "#/components/parameters/SortDir"
+      responses:
+        200:
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CustomersList"
+        500:
+          description: Internal Server Error
+    post:
+      tags: [Customers]
+      summary: Create customer
+      operationId: CreateCustomers
+      requestBody:
+        description: New customer to save
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateCustomer"
+      responses:
+        201:
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Customer"
+        500:
+          description: Internal Server Error
+  /flatline/customers/{customerUuid}:
+    get:
+      tags: [Customers]
+      summary: Get customer by uuid
+      operationId: GetCustomerByUuid
+      parameters:
+        - $ref: "#/components/parameters/CustomerUuid"
+      responses:
+        200:
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Customer"
+        404:
+          description: Not found
+        500:
+          description: Internal Server Error
+    delete:
+      tags: [Customers]
+      summary: Delete customer
+      operationId: DeleteCustomer
+      parameters:
+        - $ref: "#/components/parameters/CustomerUuid"
+      responses:
+        204:
+          description: No content
+        404:
+          description: Not found
+        500:
+          description: Internal Server Error
+    put:
+      tags: [Customers]
+      summary: Update customer
+      operationId: UpdateCustomer
+      parameters:
+        - $ref: "#/components/parameters/CustomerUuid"
+      requestBody:
+        description: Updated customer
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateCustomer"
+      responses:
+        200:
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Customer"
+        500:
+          description: Internal Server Error
+components:
+  schemas:
+    CustomersList:
+      type: array
+      items:
+        $ref: "#/components/schemas/Customer"
+    CustomerBase:
+      type: object
+      additionalProperties: false
+      required:
+        - name
+        - email
+        - phone
+      properties:
+        name:
+          type: string
+        email:
+          type: string
+        phone:
+          type: string
+    Customer:
+      allOf:
+        - $ref: "#/components/schemas/CustomerBase"
+        - type: object
+          required:
+            - uuid
+          properties:
+            uuid:
+              type: string
+              format: uuid
+            balance:
+              type: object
+              properties:
+                amount:
+                  type: number
+                  format: float
+                currency:
+                  type: string
+            status:
+              type: string
+              enum:
+                - ACTIVE
+                - IN_REVIEW
+                - CLOSED
+            actions:
+              type: array
+              items:
+                type: string
+                enum:
+                  - DELETE
+                  - EDIT
+            onboardedAt:
+              type: string
+              format: datetime
+
+    CreateCustomer:
+      allOf:
+        - $ref: "#/components/schemas/CustomerBase"
+    UpdateCustomer:
+      allOf:
+        - $ref: "#/components/schemas/CustomerBase"
+        - type: object
+          properties:
+            status:
+              type: string
+              enum:
+                - ACTIVE
+                - IN_REVIEW
+                - CLOSED
+
+  parameters:
+    CustomerUuid:
+      name: customerUuid
+      in: path
+      description: Customer uuid
+      required: true
+      schema:
+        type: string
+        format: uuid
+    Name:
+      name: name
+      in: query
+      example: Anna
+      schema:
+        type: string
+    Email:
+      name: email
+      in: query
+      example: anna@gmail.com
+      schema:
+        type: string
+    Phone:
+      name: phone
+      in: query
+      example: +392384
+      schema:
+        type: string
+    DateStart:
+      name: dateStart
+      in: query
+      schema:
+        type: string
+        format: datetime
+    DateEnd:
+      name: dateEnd
+      in: query
+      schema:
+        type: string
+        format: datetime
+    Status:
+      name: status
+      in: query
+      example: ACTIVE
+      schema:
+        type: string
+        enum:
+          - ACTIVE
+          - IN_REVIEW
+          - CLOSED
+    Offset:
+      name: offset
+      in: query
+      required: true
+      example: 1
+      schema:
+        type: integer
+    Limit:
+      name: limit
+      in: query
+      required: true
+      example: 20
+      schema:
+        type: integer
+    Sort:
+      name: sort
+      in: query
+      example: name
+      schema:
+        type: string
+    SortDir:
+      name: sortDir
+      in: query
+      example: asc
+      schema:
+        type: string
+        enum:
+          - asc
+          - desc
