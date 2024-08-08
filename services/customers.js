@@ -68,9 +68,9 @@ function getCustomers(filters) {
     return {
         items: filtered.slice(offset, offset + limit),
         pagination: {
-            offset,
-            limit,
-            count: filtered.length,
+            offset: +offset,
+            limit: +limit,
+            total: filtered.length,
         },
     };
 

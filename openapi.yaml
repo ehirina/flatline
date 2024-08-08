@@ -33,7 +33,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/CustomersList"
+                $ref: "#/components/schemas/CustomerListPaginatedResponse"
         500:
           description: Internal Server Error
     post:
@@ -109,10 +109,29 @@ paths:
           description: Internal Server Error
 components:
   schemas:
-    CustomersList:
-      type: array
-      items:
-        $ref: "#/components/schemas/Customer"
+    Pagination:
+      type: object
+      additionalProperties: false
+      required:
+        - offset
+        - limit
+        - total
+      properties:
+        offset:
+          type: number
+        limit:
+          type: number
+        total:
+          type: number
+    CustomerListPaginatedResponse:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Customer"
+        pagination:
+          $ref: '#/components/schemas/Pagination'
     CustomerBase:
       type: object
       additionalProperties: false
