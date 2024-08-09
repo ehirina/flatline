@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Marsha Mellow",
+    "email": "marsha.mellow@fireplace.com",
+    "phone": "(800) 555‑0175",
+    "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "balance": {
+      "amount": 150,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-08-07T18:05:23.700Z"
+  },
+  {
+    "name": "Maureen Biologist",
+    "email": "maureen.biologist@gmail.com",
+    "phone": "(800) 555‑0175",
+    "uuid": "bb2997d9-e304-479c-9a4f-5913765b1c68",
+    "balance": {
+      "amount": 200,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2022-05-04T18:05:23.700Z"
+  },
+  {
+    "name": "Justin Thyme",
+    "email": "tjustin@gmail.com",
+    "phone": "(800) 4854‑0199",
+    "uuid": "b2d55398-0296-4c12-afa6-21ea4bc3cc56",
+    "balance": {
+      "amount": 54,
+      "currency": "USD"
+    },
+    "status": "CLOSED",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-10-02T18:05:23.700Z"
+  },
+  {
+    "name": "Pat Thetic",
+    "email": "pat@gmail.com",
+    "phone": "(965) 555‑7859",
+    "uuid": "b2b376b7-fb3d-408f-bbb3-e091f0d22395",
+    "balance": {
+      "amount": 0,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-01-01T18:05:23.700Z"
+  },
+  {
+    "name": "Dinah Sore",
+    "email": "dinah.sore@gmail.com",
+    "phone": "(801) 554‑4975",
+    "uuid": "720ca7d2-a59c-483b-a333-fa7cf689a1ec",
+    "balance": {
+      "amount": 1500.05,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-01-01T18:05:23.700Z"
+  },
+  {
+    "name": "Don Key",
+    "email": "dkey@gmail.com",
+    "phone": "(875) 454‑4965",
+    "uuid": "eeb97fdb-3f0f-43a2-89e6-c70b06c9f7cf",
+    "balance": {
+      "amount": 965,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2022-04-11T18:05:23.700Z"
+  },
+  {
+    "name": "Les Ismore",
+    "email": "less@gmail.com",
+    "phone": "(748) 456‑4748",
+    "uuid": "f49697c4-075f-48ca-8ffd-d38090eaef63",
+    "balance": {
+      "amount": 117,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2022-05-07T18:05:23.700Z"
+  },
+  {
+    "name": "Upton Ogood",
+    "email": "uogood@gmail.com",
+    "phone": "(800) 156‑4856",
+    "uuid": "b0ef10e2-6da7-4049-81d7-e64d38253a3d",
+    "balance": {
+      "amount": 789,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-07-07T18:05:23.700Z"
+  },
+  {
+    "name": "Val N. Tine",
+    "email": "vtine@gmail.com",
+    "phone": "(800) 468‑3438",
+    "uuid": "051cc1d1-b443-4290-9489-b604a6992831",
+    "balance": {
+      "amount": 1758,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-12-12T18:05:23.700Z"
+  },
+  {
+    "name": "Pete Zahut",
+    "email": "pizza@gmail.com",
+    "phone": "(800) 453‑7834",
+    "uuid": "032df1d2-dff9-4aa3-a3a4-c1665099cadf",
+    "balance": {
+      "amount": 4687,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-11-05T18:05:23.700Z"
+  },
+  {
+    "name": "Joaquin Slowly",
+    "email": "slowly@gmail.com",
+    "phone": "(800) 852‑9462",
+    "uuid": "77fbbdbc-df81-434d-9996-92699473bcfc",
+    "balance": {
+      "amount": 464,
+      "currency": "USD"
+    },
+    "status": "CLOSED",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-11-04T18:05:23.700Z"
+  },
+  {
+    "name": "Norma Lee",
+    "email": "norma.lee@gmail.com",
+    "phone": "(800) 457‑3764",
+    "uuid": "42144894-d541-4528-b982-4d5c64582cac",
+    "balance": {
+      "amount": 854,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2021-04-11T18:05:23.700Z"
+  },
+  {
+    "name": "Sara Charles",
+    "email": "Sara@gmail.com",
+    "phone": "(800) 624‑4555",
+    "uuid": "11ebb1ce-f6d8-4d91-9e1c-0284450c05e2",
+    "balance": {
+      "amount": 499,
+      "currency": "USD"
+    },
+    "status": "CLOSE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-12-30T01:48:43.383Z"
+  },
+  {
+    "name": "Paul Ashley",
+    "email": "Paul@gmail.com",
+    "phone": "(800) 237‑6647",
+    "uuid": "3831e48b-9614-4dd5-b8da-4d5b99903b93",
+    "balance": {
+      "amount": 241,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-05-21T07:05:21.346Z"
+  },
+  {
+    "name": "Donna Donald",
+    "email": "Donna@gmail.com",
+    "phone": "(800) 156‑6224",
+    "uuid": "429990c9-3fe9-4f02-9160-eeb8e31f3bb8",
+    "balance": {
+      "amount": 606,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-05-01T09:48:44.202Z"
+  },
+  {
+    "name": "Daniel Timothy",
+    "email": "Daniel@gmail.com",
+    "phone": "(800) 592‑2837",
+    "uuid": "12768d92-f747-4f00-b653-db3c543b9dfa",
+    "balance": {
+      "amount": 72,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-05-09T22:46:22.136Z"
+  },
+  {
+    "name": "Jason Melissa",
+    "email": "Jason@gmail.com",
+    "phone": "(800) 893‑2219",
+    "uuid": "fbd885b1-24c7-451d-a172-19a259299e1f",
+    "balance": {
+      "amount": 23,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-10-24T19:15:49.254Z"
+  },
+  {
+    "name": "Paul Ashley",
+    "email": "Paul@gmail.com",
+    "phone": "(800) 815‑5918",
+    "uuid": "14a9f6eb-28aa-4cbd-8ec4-be99cf36b625",
+    "balance": {
+      "amount": 951,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-01-13T07:46:15.381Z"
+  },
+  {
+    "name": "Matthew Kimberly",
+    "email": "Matthew@gmail.com",
+    "phone": "(800) 973‑7629",
+    "uuid": "55c3b15d-55a4-4e7f-8ab5-7106c3d2addd",
+    "balance": {
+      "amount": 791,
+      "currency": "USD"
+    },
+    "status": "CLOSE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-08-26T00:35:22.206Z"
+  },
+  {
+    "name": "Emily Kenneth",
+    "email": "Emily@gmail.com",
+    "phone": "(800) 104‑5591",
+    "uuid": "db35a34d-9dc7-48ed-9592-315e3780bd8c",
+    "balance": {
+      "amount": 115,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-11-27T20:29:39.357Z"
+  },
+  {
+    "name": "Matthew Anthony",
+    "email": "Matthew@gmail.com",
+    "phone": "(800) 505‑8184",
+    "uuid": "f8ac71cd-df19-4e4c-a701-d7724efd05ec",
+    "balance": {
+      "amount": 372,
+      "currency": "USD"
+    },
+    "status": "CLOSE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-10-15T19:04:54.397Z"
+  },
+  {
+    "name": "Andrew Sandra",
+    "email": "Andrew@gmail.com",
+    "phone": "(800) 542‑2342",
+    "uuid": "1b091b1e-4fae-41d5-a2e7-41e827977879",
+    "balance": {
+      "amount": 333,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-12-25T13:11:23.161Z"
+  },
+  {
+    "name": "Melissa Michelle",
+    "email": "Melissa@gmail.com",
+    "phone": "(800) 784‑9344",
+    "uuid": "4993beb2-c774-47b1-9fb5-20870cad336b",
+    "balance": {
+      "amount": 642,
+      "currency": "USD"
+    },
+    "status": "CLOSE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-12-17T19:00:19.085Z"
+  },
+  {
+    "name": "Jason Steven",
+    "email": "Jason@gmail.com",
+    "phone": "(800) 728‑5765",
+    "uuid": "4ffe5a76-1d0d-4679-a606-42ca2faa9f6f",
+    "balance": {
+      "amount": 54,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-02-26T08:31:00.849Z"
+  },
+  {
+    "name": "Christop Kevin",
+    "email": "Christop@gmail.com",
+    "phone": "(800) 376‑9480",
+    "uuid": "47864669-3d69-42cd-a66c-5dec73f4f5b5",
+    "balance": {
+      "amount": 177,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-09-09T18:40:37.817Z"
+  },
+  {
+    "name": "Mark Donna",
+    "email": "Mark@gmail.com",
+    "phone": "(800) 829‑3820",
+    "uuid": "78255925-3400-4a2a-817a-942704ec5a4b",
+    "balance": {
+      "amount": 18,
+      "currency": "USD"
+    },
+    "status": "CLOSE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-10-02T18:51:58.313Z"
+  },
+  {
+    "name": "Kevin Anthony",
+    "email": "Kevin@gmail.com",
+    "phone": "(800) 964‑5877",
+    "uuid": "8db90b52-7247-4ce6-9ea6-a175eeb022b0",
+    "balance": {
+      "amount": 925,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-10-22T02:48:27.187Z"
+  },
+  {
+    "name": "Christop Nancy",
+    "email": "Christop@gmail.com",
+    "phone": "(800) 363‑6136",
+    "uuid": "d41582ae-009e-4aa1-ae9f-52e399669b0b",
+    "balance": {
+      "amount": 993,
+      "currency": "USD"
+    },
+    "status": "CLOSE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-12-20T22:24:14.169Z"
+  },
+  {
+    "name": "Ashley Kevin",
+    "email": "Ashley@gmail.com",
+    "phone": "(800) 195‑3368",
+    "uuid": "277e60b1-61c7-4a60-8ca2-123c845d6fff",
+    "balance": {
+      "amount": 170,
+      "currency": "USD"
+    },
+    "status": "ACTIVE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-06-29T10:38:20.014Z"
+  },
+  {
+    "name": "Amanda Kenneth",
+    "email": "Amanda@gmail.com",
+    "phone": "(800) 438‑5669",
+    "uuid": "a772c107-d52a-47a4-9e79-5002664baf71",
+    "balance": {
+      "amount": 858,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-06-09T08:38:19.420Z"
+  },
+  {
+    "name": "Melissa Sara",
+    "email": "Melissa@gmail.com",
+    "phone": "(800) 327‑6540",
+    "uuid": "9cd4adff-2f27-4a35-9855-0e959cc07bef",
+    "balance": {
+      "amount": 85,
+      "currency": "USD"
+    },
+    "status": "IN_REVIEW",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2024-01-25T13:46:30.041Z"
+  },
+  {
+    "name": "Kenneth Deborah",
+    "email": "Kenneth@gmail.com",
+    "phone": "(800) 622‑5180",
+    "uuid": "c7070659-6e20-4e5a-9383-0a95f47af989",
+    "balance": {
+      "amount": 309,
+      "currency": "USD"
+    },
+    "status": "CLOSE",
+    "actions": [
+      "DELETE"
+    ],
+    "onboardedAt": "2023-07-27T16:06:32.729Z"
+  }
+]

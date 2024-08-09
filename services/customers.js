@@ -1,39 +1,6 @@
 const { v4: uuid } = require("uuid");
 const { orderBy } = require("lodash");
-
-
-let CUSTOMERS = [
-    {
-        "name": "Marsha Mellow",
-        "email": "marsha.mellow@fireplace.com",
-        "phone": "(800) 555‑0175",
-        "uuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-        "balance": {
-            "amount": 150,
-            "currency": "USD"
-        },
-        "status": "ACTIVE",
-        "actions": [
-            "DELETE"
-        ],
-        "onboardedAt": "2023-08-07T18:05:23.700Z"
-    },
-    {
-        "name": "Maureen Biologist",
-        "email": "maureen.biologist@gmail.com",
-        "phone": "(800) 555‑0175",
-        "uuid": "bb2997d9-e304-479c-9a4f-5913765b1c68",
-        "balance": {
-            "amount": 200,
-            "currency": "USD"
-        },
-        "status": "ACTIVE",
-        "actions": [
-            "DELETE"
-        ],
-        "onboardedAt": "2022-05-04T18:05:23.700Z"
-    },
-]
+let CUSTOMERS = require("../data/customer.json")
 
 function getCustomers(filters) {
     const { limit, offset, sort, sortDir, dateStart, dateEnd, name, phone, email, status } = filters;
