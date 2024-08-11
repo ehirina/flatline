@@ -4,6 +4,7 @@ let CUSTOMERS = require("../data/customer.json")
 
 function getCustomers(filters) {
     const { limit, offset, sort, sortDir, dateStart, dateEnd, name, phone, email, status } = filters;
+
     let filtered = CUSTOMERS;
 
     if (name) {
@@ -30,10 +31,15 @@ function getCustomers(filters) {
         filtered = filtered.filter(customer => new Date(customer.onboardedAt) <= new Date(dateEnd));
     }
 
-    if (sort) filtered = orderBy(filtered, sort, sortDir);
+    if (sort) {
+        if (sort === "balance") {
+            filtered = orderBy(filtered, "balance.amount", sortDir);
+        } else
+            filtered = orderBy(filtered, sort, sortDir);
+    }
 
     return {
-        items: filtered.slice(offset, offset + limit),
+        items: filtered.slice(Number.parseInt(offset), Number.parseInt(offset) + Number.parseInt(limit)),
         pagination: {
             offset: +offset,
             limit: +limit,
@@ -48,9 +54,7 @@ function createCustomer(customer) {
         ...customer,
         uuid: uuid(),
         status: "IN_REVIEW",
-        actions: [
-            "DELETE"
-        ],
+        actions: ["DELETE"],
         balance: { amount: 0, currency: "USD" },
         onboardedAt: new Date().toISOString()
     };
@@ -64,12 +68,9 @@ function getCustomer(id) {
 }
 
 function deleteCustomer(id) {
-    const customer= CUSTOMERS.find(customer => customer.uuid === id);
+    const customer = CUSTOMERS.find(customer => customer.uuid === id);
 
-    CUSTOMERS.splice(
-        CUSTOMERS.findIndex(customer => customer.uuid === id),
-        1,
-    );
+    CUSTOMERS.splice(CUSTOMERS.findIndex(customer => customer.uuid === id), 1,);
     return !!customer;
 }
 
@@ -78,8 +79,7 @@ function updateCustomer(id, body) {
     const index = CUSTOMERS.findIndex(customer => customer.uuid === id);
 
     const updatedCustomer = {
-        ...customer,
-        ...body,
+        ...customer, ...body,
     }
 
     CUSTOMERS[index] = updatedCustomer;
@@ -88,9 +88,5 @@ function updateCustomer(id, body) {
 }
 
 module.exports = {
-    getCustomers,
-    createCustomer,
-    getCustomer,
-    deleteCustomer,
-    updateCustomer
+    getCustomers, createCustomer, getCustomer, deleteCustomer, updateCustomer
 };
