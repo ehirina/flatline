@@ -188,7 +188,7 @@
       "amount": 499,
       "currency": "USD"
     },
-    "status": "CLOSE",
+    "status": "CLOSED",
     "actions": [
       "DELETE"
     ],
@@ -278,7 +278,7 @@
       "amount": 791,
       "currency": "USD"
     },
-    "status": "CLOSE",
+    "status": "CLOSED",
     "actions": [
       "DELETE"
     ],
@@ -308,7 +308,7 @@
       "amount": 372,
       "currency": "USD"
     },
-    "status": "CLOSE",
+    "status": "CLOSED",
     "actions": [
       "DELETE"
     ],
@@ -338,7 +338,7 @@
       "amount": 642,
       "currency": "USD"
     },
-    "status": "CLOSE",
+    "status": "CLOSED",
     "actions": [
       "DELETE"
     ],
@@ -383,7 +383,7 @@
       "amount": 18,
       "currency": "USD"
     },
-    "status": "CLOSE",
+    "status": "CLOSED",
     "actions": [
       "DELETE"
     ],
@@ -413,7 +413,7 @@
       "amount": 993,
       "currency": "USD"
     },
-    "status": "CLOSE",
+    "status": "CLOSED",
     "actions": [
       "DELETE"
     ],
@@ -473,7 +473,7 @@
       "amount": 309,
       "currency": "USD"
     },
-    "status": "CLOSE",
+    "status": "CLOSED",
     "actions": [
       "DELETE"
     ],
