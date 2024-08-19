@@ -10,7 +10,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-08-07T18:05:23.700Z"
   },
@@ -25,7 +27,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2022-05-04T18:05:23.700Z"
   },
@@ -40,7 +44,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2023-10-02T18:05:23.700Z"
   },
@@ -55,7 +60,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-01-01T18:05:23.700Z"
   },
@@ -70,7 +77,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-01-01T18:05:23.700Z"
   },
@@ -85,7 +94,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2022-04-11T18:05:23.700Z"
   },
@@ -100,7 +111,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2022-05-07T18:05:23.700Z"
   },
@@ -115,7 +128,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-07-07T18:05:23.700Z"
   },
@@ -130,7 +145,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-12-12T18:05:23.700Z"
   },
@@ -145,7 +162,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-11-05T18:05:23.700Z"
   },
@@ -160,7 +179,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2023-11-04T18:05:23.700Z"
   },
@@ -175,7 +195,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2021-04-11T18:05:23.700Z"
   },
@@ -190,7 +212,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2024-12-30T01:48:43.383Z"
   },
@@ -205,7 +228,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-05-21T07:05:21.346Z"
   },
@@ -220,7 +245,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-05-01T09:48:44.202Z"
   },
@@ -235,7 +262,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-05-09T22:46:22.136Z"
   },
@@ -250,7 +279,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-10-24T19:15:49.254Z"
   },
@@ -265,7 +296,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-01-13T07:46:15.381Z"
   },
@@ -280,7 +313,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2024-08-26T00:35:22.206Z"
   },
@@ -295,7 +329,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-11-27T20:29:39.357Z"
   },
@@ -310,7 +346,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2023-10-15T19:04:54.397Z"
   },
@@ -325,7 +362,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-12-25T13:11:23.161Z"
   },
@@ -340,7 +379,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2023-12-17T19:00:19.085Z"
   },
@@ -355,7 +395,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-02-26T08:31:00.849Z"
   },
@@ -370,7 +412,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-09-09T18:40:37.817Z"
   },
@@ -385,7 +429,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2024-10-02T18:51:58.313Z"
   },
@@ -400,7 +445,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-10-22T02:48:27.187Z"
   },
@@ -415,7 +462,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2023-12-20T22:24:14.169Z"
   },
@@ -430,7 +478,9 @@
     },
     "status": "ACTIVE",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-06-29T10:38:20.014Z"
   },
@@ -445,7 +495,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2023-06-09T08:38:19.420Z"
   },
@@ -460,7 +512,9 @@
     },
     "status": "IN_REVIEW",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT",
+      "CLOSE"
     ],
     "onboardedAt": "2024-01-25T13:46:30.041Z"
   },
@@ -475,7 +529,8 @@
     },
     "status": "CLOSED",
     "actions": [
-      "DELETE"
+      "DELETE",
+      "EDIT"
     ],
     "onboardedAt": "2023-07-27T16:06:32.729Z"
   }
