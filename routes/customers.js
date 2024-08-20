@@ -36,16 +36,25 @@ router.get('/:id', function (req, res, next) {
 });
 
 router.delete('/:id', function (req, res, next) {
-  const { id } = req.params;
-  const response = customers.deleteCustomer(id);
+    const { id } = req.params;
+    const response = customers.deleteCustomer(id);
 
-  if (!response) {
-    return res.sendStatus(404);
-  }
+    if (!response) {
+        return res.sendStatus(404);
+    }
 
-  res.sendStatus(204);
+    res.sendStatus(204);
 });
 
+router.post('/:id/close', function (req, res, next) {
+    const { id } = req.params;
+    const response = customers.updateCustomer(id, { ...req.body, status: "CLOSED", actions: ["DELETE", "EDIT"] });
 
+    if (!response) {
+        return res.sendStatus(404);
+    }
+
+    res.json(response);
+});
 
 module.exports = router;

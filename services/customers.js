@@ -54,7 +54,7 @@ function createCustomer(customer) {
         ...customer,
         uuid: uuid(),
         status: "IN_REVIEW",
-        actions: ["DELETE"],
+        actions: ["DELETE", "EDIT", "CLOSE"],
         balance: { amount: 0, currency: "USD" },
         onboardedAt: new Date().toISOString()
     };
